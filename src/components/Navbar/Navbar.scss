@@ -1,0 +1,33 @@
+@import '../SCSS/Variables.scss';
+@import '../SCSS/Mixins.scss';
+
+.Navbar nav {
+  padding-top: 0% 10%;
+  font-family: $main-font;
+  height: fit-content; //9vh
+  .logo {
+    width: 40%;
+    height: 40%;
+  }
+  #navItems {
+    margin-right: 200px;
+    font-weight: $heading-fw;
+  }
+  ul li {
+    padding-right: 15%;
+  }
+}
+@media (max-width: 768px) {
+  .Navbar {
+    .logo {
+      height: 50px !important;
+      width: 70px !important;
+    }
+    #navItems {
+      margin-right: 0px !important;
+    }
+    ul li {
+      padding-right: 4% !important;
+    }
+  }
+}

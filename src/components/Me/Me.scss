@@ -1,0 +1,73 @@
+@import '../SCSS/Variables.scss';
+@import '../SCSS/Mixins.scss';
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.Me {
+  font-family: $main-font;
+  padding: 5% 15%;
+  background-color: black;
+  color: white;
+
+  #myImage1 {
+    margin-top: 10%;
+    height: 80%;
+    width: 100%;
+  }
+  #myImage2 {
+    height: 40%;
+    width: 100%;
+    margin-bottom: 10%;
+  }
+  #myImage3 {
+    height: 50%;
+    width: 100%;
+  }
+  #myImage4 {
+    height: 80%;
+    width: 100%;
+  }
+  #text {
+    font-size: $text-fs;
+    font-weight: $text-fw;
+    text-align: justify !important;
+  }
+  #titleMe {
+    font-size: $subheading-fs;
+    text-align: center;
+  }
+}
+
+@media (max-width: 768px) {
+  .Me {
+    padding: 10% 5%;
+  }
+  #myImage1 {
+    height: 100% !important;
+    width: 100% !important;
+    padding: 10% !important;
+    margin-top: 0% !important;
+  }
+  #myImage2 {
+    height: 40% !important;
+    width: 100% !important;
+    padding: 10% !important;
+    margin-top: 0% !important;
+    margin-bottom: 5% !important;
+  }
+  #myImage3 {
+    height: 50% !important;
+    width: 100% !important;
+    padding: 10% !important;
+    margin-top: 0% !important;
+  }
+  #myImage4 {
+    height: 100% !important;
+    width: 100% !important;
+    padding: 10% !important;
+    margin-top: 0% !important;
+  }
+}
