@@ -1,0 +1,63 @@
+@import '../../Assets/SCSS/Variables.scss';
+@import '../../Assets/SCSS/Mixins.scss';
+.ContactForm {
+  background-image: url('../../Assets/Images/Contact/map-image.webp');
+  background-position: center center;
+  background-size: cover;
+  background-color: black;
+  color: $main-color;
+  font-family: $main-font;
+  form {
+    height: 92vh;
+    padding: 5% 30%;
+    margin-right: auto;
+
+    h1 {
+      text-align: center;
+      font-size: $h1-fs;
+    }
+    #name,
+    #email,
+    #message {
+      width: 100%;
+      outline: none;
+      border: 2px solid black;
+      padding: 2%;
+    }
+    #message {
+      height: 25vh;
+      box-shadow: none;
+    }
+    #submitButton {
+      width: fit-content;
+      height: fit-content;
+      padding: $btn-padding;
+      color: $main-color;
+      border-radius: 10px;
+      background-color: $main-btn-color;
+      font-size: $main-btn-fs;
+      font-weight: $main-btn-fw;
+      border: 2px solid black;
+      margin-left: auto;
+      margin-right: auto;
+      display: flex;
+      justify-content: space-around;
+    }
+    #submitButton:hover {
+      background-color: $hover-btn-color;
+    }
+  }
+}
+@media (max-width: 768px) {
+  .ContactForm {
+    form {
+      padding: 5% 2%;
+    }
+    h1 {
+      font-size: $h1-sm-fs !important;
+    }
+    #submitButton {
+      font-size: $main-btn-sm-fs !important;
+    }
+  }
+}

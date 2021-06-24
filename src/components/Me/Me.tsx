@@ -1,9 +1,9 @@
 import React from 'react'
 import './Me.scss'
-import myImage1 from '../Images/About/Me.jpeg'
-import myImage2 from '../Images/About/fonis.png'
-import myImage3 from '../Images/About/pulls.jpg'
-import myImage4 from '../Images/About/programming.jpg'
+import myImage1 from '../../Assets/Images/About/Me.jpeg'
+import myImage2 from '../../Assets/Images/About/fonis.png'
+import myImage3 from '../../Assets/Images/About/pulls.jpg'
+import myImage4 from '../../Assets/Images/About/programming.jpg'
 
 let About = () => {
   return (

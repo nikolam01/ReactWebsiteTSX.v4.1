@@ -1,20 +1,23 @@
-@import '../SCSS/Variables.scss';
-@import '../SCSS/Mixins.scss';
+@import '../../Assets/SCSS/Variables.scss';
+@import '../../Assets/SCSS/Mixins.scss';
 
-.Navbar nav {
-  padding-top: 0% 10%;
-  font-family: $main-font;
-  height: fit-content; //9vh
-  .logo {
-    width: 40%;
-    height: 40%;
-  }
-  #navItems {
-    margin-right: 200px;
-    font-weight: $heading-fw;
-  }
-  ul li {
-    padding-right: 15%;
+.Navbar {
+  nav {
+    padding-top: 0% 10%;
+    font-family: $main-font;
+    height: fit-content; //9vh
+    background-color: #fff108 !important;
+    .logo {
+      width: 35%;
+      height: 35%;
+    }
+    #navItems {
+      margin-right: 200px;
+      font-weight: $heading-fw;
+    }
+    ul li {
+      padding-right: 15%;
+    }
   }
 }
 @media (max-width: 768px) {

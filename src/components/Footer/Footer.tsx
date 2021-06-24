@@ -19,16 +19,6 @@ let Footer = () => {
 
             <a
               className="btn btn-link btn-floating btn-lg text-body m-1"
-              id="twBtn"
-              href="https://twitter.com/nikola5765"
-              role="button"
-              data-mdb-ripple-color="dark"
-            >
-              <i className="fab fa-twitter"></i>
-            </a>
-
-            <a
-              className="btn btn-link btn-floating btn-lg text-body m-1"
               id="mailBtn"
               href="mailto:nikolamirilo@gmail.com"
               role="button"
@@ -73,6 +63,7 @@ let Footer = () => {
           <a
             className="text-body text-decoration-none"
             id="coprightName"
+            href="mailto:nikolamirilo"
             style={{ cursor: 'pointer', fontWeight: 'bold' }}
           >
             Nikola Mirilo

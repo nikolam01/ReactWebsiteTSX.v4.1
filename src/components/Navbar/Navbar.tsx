@@ -1,6 +1,6 @@
 import React from 'react'
 import './Navbar.scss'
-import Logo from '../Images/Logo/Logo.png'
+import Logo from '../../Assets/Images/Logo/Logo.png'
 
 let Navbar = () => {
   return (
@@ -8,7 +8,6 @@ let Navbar = () => {
       <nav
         className="navbar navbar-expand-lg navbar-light p-0"
         style={{
-          backgroundColor: '#ffc107',
           marginLeft: 'auto',
           marginRight: 'auto',
         }}
@@ -53,7 +52,7 @@ let Navbar = () => {
               </a>
             </li>
             <li className="nav-item active">
-              <a className="nav-link pr-0" href="/CV">
+              <a className="nav-link pr-0" href="/cv">
                 CV
               </a>
             </li>

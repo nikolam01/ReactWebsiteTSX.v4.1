@@ -1,5 +1,5 @@
-@import '../SCSS/Variables.scss';
-@import '../SCSS/Mixins.scss';
+@import '../../Assets/SCSS/Variables.scss';
+@import '../../Assets/SCSS/Mixins.scss';
 
 * {
   margin: 0;
@@ -9,8 +9,9 @@
 .Footer {
   padding: 0%;
   height: 10vh;
-  color: white;
-  background-color: #ffc107;
+  color: $main-color;
+  font-family: $main-font;
+  background-color: #fff108;
   #socialMedia a {
     color: black !important;
     outline: none !important;
@@ -26,7 +27,7 @@
     border: none !important;
   }
   #copyright {
-    background-color: #ffc107;
+    background-color: #fff108;
     color: black !important;
     #copyrightName {
       text-decoration: none !important;
@@ -34,6 +35,6 @@
     }
   }
   .container {
-    background-color: #ffc107 !important;
+    background-color: #fff108 !important;
   }
 }

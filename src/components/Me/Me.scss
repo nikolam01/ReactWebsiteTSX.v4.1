@@ -1,5 +1,5 @@
-@import '../SCSS/Variables.scss';
-@import '../SCSS/Mixins.scss';
+@import '../../Assets/SCSS/Variables.scss';
+@import '../../Assets/SCSS/Mixins.scss';
 
 * {
   margin: 0;
@@ -10,7 +10,7 @@
   font-family: $main-font;
   padding: 5% 15%;
   background-color: black;
-  color: white;
+  color: $main-color;
 
   #myImage1 {
     margin-top: 10%;
