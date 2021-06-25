@@ -1,6 +1,9 @@
 @import '../../Assets/SCSS/Variables.scss';
 @import '../../Assets/SCSS/Mixins.scss';
 
+* {
+  @include start-setings;
+}
 .Navbar {
   nav {
     padding-top: 0% 10%;

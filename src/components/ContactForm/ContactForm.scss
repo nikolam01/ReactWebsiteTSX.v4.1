@@ -1,5 +1,10 @@
 @import '../../Assets/SCSS/Variables.scss';
 @import '../../Assets/SCSS/Mixins.scss';
+
+* {
+  @include start-setings;
+}
+
 .ContactForm {
   background-image: url('../../Assets/Images/Contact/map-image.webp');
   background-position: center center;
@@ -29,14 +34,14 @@
       box-shadow: none;
     }
     #submitButton {
-      width: fit-content;
-      height: fit-content;
-      padding: $btn-padding;
-      color: $main-color;
-      border-radius: 10px;
       background-color: $main-btn-color;
       font-size: $main-btn-fs;
       font-weight: $main-btn-fw;
+      padding: $btn-padding;
+      color: $main-color;
+      width: fit-content;
+      height: fit-content;
+      border-radius: 10px;
       border: 2px solid black;
       margin-left: auto;
       margin-right: auto;

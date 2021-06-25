@@ -1,0 +1,26 @@
+@import '../../Assets/SCSS/Variables.scss';
+@import '../../Assets/SCSS/Mixins.scss';
+* {
+  @include start-setings;
+}
+
+.CvComponent {
+  padding: 2% 25%;
+
+  .cvImg {
+    width: 50vw;
+    height: auto;
+    border: 3px solid black;
+  }
+}
+@media (max-width: 568px) {
+  .CvComponent {
+    padding: 5% 2% !important;
+
+    .cvImg {
+      width: 96vw !important;
+      height: auto !important;
+      border: 3px solid black;
+    }
+  }
+}

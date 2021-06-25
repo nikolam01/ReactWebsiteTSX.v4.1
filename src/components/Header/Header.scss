@@ -1,9 +1,7 @@
 @import '../../Assets/SCSS/Variables.scss';
 @import '../../Assets/SCSS/Mixins.scss';
 * {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
+  @include start-setings;
 }
 .Header {
   font-family: $main-font;
@@ -41,7 +39,6 @@
     color: $main-color;
     width: fit-content;
     height: fit-content;
-    font-weight: 600;
     border: none;
     border-radius: 10px;
     margin-left: auto;

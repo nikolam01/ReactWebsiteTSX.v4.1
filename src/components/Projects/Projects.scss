@@ -1,0 +1,5 @@
+@import '../../Assets/SCSS/Variables.scss';
+@import '../../Assets/SCSS/Mixins.scss';
+* {
+  @include start-setings;
+}
