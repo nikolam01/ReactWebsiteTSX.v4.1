@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 import './Navbar.scss'
 import Logo from '../../Assets/Images/Logo/Logo.png'
 
@@ -12,9 +13,9 @@ let Navbar = () => {
           marginRight: 'auto',
         }}
       >
-        <a className="navbar-brand pl-3" href="/">
+        <Link className="navbar-brand pl-3" to="/">
           <img className="logo" src={Logo} alt="Logo"></img>
-        </a>
+        </Link>
         <button
           className="navbar-toggler"
           type="button"
@@ -37,24 +38,24 @@ let Navbar = () => {
             }}
           >
             <li className="nav-item active">
-              <a className="nav-link pr-0" href="/">
+              <Link className="nav-link pr-0" to="/">
                 Home
-              </a>
+              </Link>
             </li>
             <li className="nav-item active">
-              <a className="nav-link pr-0" href="/contact">
+              <Link className="nav-link pr-0" to="/contact">
                 Contact
-              </a>
+              </Link>
             </li>
             <li className="nav-item active">
-              <a className="nav-link pr-0" href="/about">
+              <Link className="nav-link pr-0" to="/about">
                 About
-              </a>
+              </Link>
             </li>
             <li className="nav-item active">
-              <a className="nav-link pr-0" href="/cv">
+              <Link className="nav-link pr-0" to="/cv">
                 CV
-              </a>
+              </Link>
             </li>
           </ul>
         </div>
