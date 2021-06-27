@@ -25,7 +25,7 @@ let Navbar = () => {
           aria-expanded="false"
           aria-label="Toggle navigation"
         >
-          <span className="navbar-toggler-icon"></span>
+          <span className="fas fa-bars fa-1x"></span>
         </button>
         <div className="collapse navbar-collapse" id="navbarNav">
           <ul
@@ -45,6 +45,11 @@ let Navbar = () => {
             <li className="nav-item active">
               <Link className="nav-link pr-0" to="/contact">
                 Contact
+              </Link>
+            </li>
+            <li className="nav-item active">
+              <Link className="nav-link pr-0" to="/portfolio">
+                Portfolio
               </Link>
             </li>
             <li className="nav-item active">

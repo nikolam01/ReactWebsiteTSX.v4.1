@@ -3,3 +3,18 @@
   padding: 0;
   box-sizing: border-box;
 }
+@mixin vertical-horizontal-center {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  text-align: flex-end;
+}
+@mixin default-page-padding {
+  padding: 5% 15%;
+}
+@mixin center-block {
+  margin: {
+    left: auto;
+    right: auto;
+  }
+}

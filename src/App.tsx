@@ -6,15 +6,14 @@ import Home from './pages/Home'
 import Contact from './pages/Contact'
 import About from './pages/About'
 import CV from './pages/CV'
-
-//layout
-//import Layout from './components/Layout/Layout'
+import Portfolio from './pages/Portfolio'
 
 let App = () => {
   return (
     <Router>
       <Switch>
         <Route path="/cv" component={CV} />
+        <Route path="/portfolio" component={Portfolio} />
         <Route path="/about" component={About} />
         <Route path="/contact" component={Contact} />
         <Route path="/" component={Home} />

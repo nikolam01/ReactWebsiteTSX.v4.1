@@ -6,7 +6,6 @@
 }
 .Navbar {
   nav {
-    padding-top: 0% 10%;
     font-family: $main-font;
     height: fit-content; //9vh
     background-color: #fff108 !important;
@@ -15,14 +14,23 @@
       height: 35%;
     }
     #navItems {
-      margin-right: 200px;
+      margin-right: 300px;
       font-weight: $heading-fw;
+    }
+    button {
+      outline: none;
+      border: none;
+    }
+    .fa-1x {
+      font-size: 1.6rem;
+      color: black;
     }
     ul li {
       padding-right: 15%;
     }
   }
 }
+
 @media (max-width: 768px) {
   .Navbar {
     .logo {
