@@ -21,31 +21,55 @@ let PortfolioComponent: React.FC = () => {
           image={responsiveDesign}
           alt="Responsive Design"
           text="Limitless Dimensions"
+          onClick={(e: any) => {
+            e.preventDefault()
+            window.location.href = 'https://www.linkedin.com/in/nikola-mirilo/'
+          }}
         />
         <PortfolioItem
           image={digitalMarketing}
           alt="Digital Marketing"
           text="Insanely higher Reach"
+          onClick={(e: any) => {
+            e.preventDefault()
+            window.location.href = 'https://www.linkedin.com/in/nikola-mirilo/'
+          }}
         />
         <PortfolioItem
           image={graphicDesign}
           alt="Graphic Design"
           text="Designing your apps"
+          onClick={(e: any) => {
+            e.preventDefault()
+            window.location.href = 'https://www.linkedin.com/in/nikola-mirilo/'
+          }}
         />
         <PortfolioItem
           image={photography}
           alt="Photography"
           text="Proffesional shots"
+          onClick={(e: any) => {
+            e.preventDefault()
+            window.location.href = 'https://www.linkedin.com/in/nikola-mirilo/'
+          }}
         />
         <PortfolioItem
           image={webDevelopment}
           alt="Web Development"
           text="Making digital products"
+          onClick={(e: any) => {
+            e.preventDefault()
+            window.location.href = 'https://www.linkedin.com/in/nikola-mirilo/'
+          }}
         />
         <PortfolioItem
           image={projectManagement}
           alt="Project Management"
           text="Coordinating your projects"
+          onClick={(e: any) => {
+            e.preventDefault()
+            window.location.href = 'https://www.linkedin.com/in/nikola-mirilo/'
+          }}
         />
       </div>
     </div>

@@ -1,7 +1,7 @@
 import React from 'react'
 import './ContactForm.scss'
 
-let ContactForm = () => {
+let ContactForm: React.FC = () => {
   return (
     <div className="ContactForm">
       <form name="contact" id="formFy" method="post">

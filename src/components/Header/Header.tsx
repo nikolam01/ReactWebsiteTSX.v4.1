@@ -2,7 +2,7 @@ import React from 'react'
 import './Header.scss'
 import { Link } from 'react-router-dom'
 
-let Header = () => {
+let Header: React.FC = () => {
   return (
     <div className="Header" id="particles-js">
       <h1>Welcome to my personal website</h1>

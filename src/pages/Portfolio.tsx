@@ -5,7 +5,7 @@ import PortfolioComponent from '../components/PortfolioComponent/PortfolioCompon
 import Navbar from '../components/Navbar/Navbar'
 import Footer from '../components/Footer/Footer'
 
-let Portfolio = () => {
+let Portfolio: React.FC = () => {
   return (
     <div className="Portfolio">
       <Navbar />

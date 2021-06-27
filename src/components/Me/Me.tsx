@@ -5,7 +5,7 @@ import myImage2 from '../../Assets/Images/About/fonis.png'
 import myImage3 from '../../Assets/Images/About/pulls.jpg'
 import myImage4 from '../../Assets/Images/About/programming.jpg'
 
-let About = () => {
+let Me: React.FC = () => {
   return (
     <div className="Me">
       {' '}
@@ -191,4 +191,4 @@ let About = () => {
     </div>
   )
 }
-export default About
+export default Me

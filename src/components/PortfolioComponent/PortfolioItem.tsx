@@ -4,12 +4,18 @@ interface Props {
   image: string
   alt: string
   text: string
+  onClick: any
 }
 
-let PortfolioItem: React.FC<Props> = ({ image, alt, text }) => {
+let PortfolioItem: React.FC<Props> = ({ image, alt, text, onClick }) => {
   return (
-    <div className="card col-sm-4">
-      <img className="card-img-top" src={image} alt={alt}></img>
+    <div className="card col-sm-4" onClick={onClick}>
+      <img
+        className="card-img-top"
+        style={{ cursor: 'pointer' }}
+        src={image}
+        alt={alt}
+      ></img>
       <div className="card-body">
         <p className="card-text">{text}</p>
       </div>
