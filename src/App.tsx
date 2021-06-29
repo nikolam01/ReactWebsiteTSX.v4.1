@@ -1,17 +1,18 @@
 import React from 'react'
 import { BrowserRouter as Router, Route, Switch } from 'react-router-dom'
-
 //pages
 import Home from './pages/Home'
 import Contact from './pages/Contact'
 import About from './pages/About'
 import CV from './pages/CV'
 import Portfolio from './pages/Portfolio'
+import Services from './pages/Services'
 
 let App = () => {
   return (
     <Router>
       <Switch>
+        <Route path="/services" component={Services} />
         <Route path="/cv" component={CV} />
         <Route path="/portfolio" component={Portfolio} />
         <Route path="/about" component={About} />
