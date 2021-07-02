@@ -20,9 +20,11 @@
   #twBtn,
   #igBtn,
   #lnBtn,
-  #ghBtn:active {
+  #ghBtn,
+  :focus {
     outline: none !important;
-    border: none !important;
+    border: transparent !important;
+    box-shadow: none;
   }
   #copyright {
     background-color: #fff108;
