@@ -11,9 +11,14 @@ let Footer: React.FC = () => {
             <Link
               className="btn btn-link btn-floating btn-lg text-body m-1"
               id="fbBtn"
-              to="https://www.facebook.com/nikola.mirilo.5/"
-              role="button"
+              type="button"
+              to=""
               data-mdb-ripple-color="dark"
+              onClick={(e) => {
+                e.preventDefault()
+                window.location.href =
+                  'https://www.facebook.com/nikola.mirilo.5/'
+              }}
             >
               <i className="fab fa-facebook-f"></i>
             </Link>
@@ -21,9 +26,13 @@ let Footer: React.FC = () => {
             <Link
               className="btn btn-link btn-floating btn-lg text-body m-1"
               id="mailBtn"
-              to="mailto:nikolamirilo@gmail.com"
+              to=""
               role="button"
               data-mdb-ripple-color="dark"
+              onClick={(e) => {
+                e.preventDefault()
+                window.location.href = 'mailto:nikolamirilo@gmail.com'
+              }}
             >
               <i className="far fa-envelope"></i>
             </Link>
@@ -31,9 +40,14 @@ let Footer: React.FC = () => {
             <Link
               className="btn btn-link btn-floating btn-lg text-body m-1"
               id="igBtn"
-              to="https://www.instagram.com/nikola.mirilo/"
+              to=""
               role="button"
               data-mdb-ripple-color="dark"
+              onClick={(e) => {
+                e.preventDefault()
+                window.location.href =
+                  'https://www.instagram.com/nikola.mirilo/'
+              }}
             >
               <i className="fab fa-instagram"></i>
             </Link>
@@ -41,9 +55,14 @@ let Footer: React.FC = () => {
             <Link
               className="btn btn-link btn-floating btn-lg text-body m-1"
               id="lnBtn"
-              to="https://www.linkedin.com/in/nikola-mirilo/"
+              to=""
               role="button"
               data-mdb-ripple-color="dark"
+              onClick={(e) => {
+                e.preventDefault()
+                window.location.href =
+                  'https://www.linkedin.com/in/nikola-mirilo/'
+              }}
             >
               <i className="fab fa-linkedin"></i>
             </Link>
@@ -51,9 +70,13 @@ let Footer: React.FC = () => {
             <Link
               className="btn btn-link btn-floating btn-lg text-body m-1"
               id="ghBtn"
-              to="https://github.com/nikolam01"
+              to=""
               role="button"
               data-mdb-ripple-color="dark"
+              onClick={(e) => {
+                e.preventDefault()
+                window.location.href = 'https://github.com/nikolam01'
+              }}
             >
               <i className="fab fa-github"></i>
             </Link>
@@ -64,7 +87,11 @@ let Footer: React.FC = () => {
           <Link
             className="text-body text-decoration-none"
             id="coprightName"
-            to="mailto:nikolamirilo"
+            to=""
+            onClick={(e) => {
+              e.preventDefault()
+              window.location.href = 'mailto:nikolamirilo'
+            }}
             style={{ cursor: 'pointer', fontWeight: 'bold' }}
           >
             Nikola Mirilo
