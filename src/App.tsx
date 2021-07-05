@@ -7,11 +7,13 @@ import About from './pages/About'
 import CV from './pages/CV'
 import Portfolio from './pages/Portfolio'
 import Services from './pages/Services'
+import NotFound from './pages/NotFound'
 
 let App = () => {
   return (
     <Router>
       <Switch>
+        <Route path="/404" component={NotFound} />
         <Route path="/services" component={Services} />
         <Route path="/cv" component={CV} />
         <Route path="/portfolio" component={Portfolio} />
