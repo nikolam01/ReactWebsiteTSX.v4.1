@@ -2,7 +2,7 @@ import React from 'react'
 import './Services.scss'
 import SingleService from './SingleService'
 
-let ServicesComponent = () => {
+const ServicesComponent = () => {
   return (
     <section className="section services-section" id="services">
       <div className="container">

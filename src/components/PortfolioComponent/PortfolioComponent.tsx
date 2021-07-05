@@ -12,7 +12,7 @@ import graphicDesign from '../../Assets/Images/Portofolio/graphic-design.jpg'
 //components
 import PortfolioItem from './PortfolioItem'
 
-let PortfolioComponent: React.FC = () => {
+const PortfolioComponent: React.FC = () => {
   return (
     <div className="PortfolioComponent">
       <h1>Portfolio</h1>

@@ -1,7 +1,7 @@
 import React from 'react'
 import './404.scss'
 
-let BadRoute: React.FC = () => {
+const BadRoute: React.FC = () => {
   return (
     <div className="BadRoute">
       <p>404</p>

@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom'
 import './Navbar.scss'
 import Logo from '../../Assets/Images/Logo/Logo.png'
 
-let Navbar: React.FC = () => {
+const Navbar: React.FC = () => {
   return (
     <div className="Navbar">
       <nav

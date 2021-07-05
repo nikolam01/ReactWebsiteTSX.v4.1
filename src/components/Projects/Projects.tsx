@@ -1,6 +1,6 @@
 import React from 'react'
 
-let Projects = () => {
+const Projects = () => {
   return <div className="Projects"></div>
 }
 export default Projects

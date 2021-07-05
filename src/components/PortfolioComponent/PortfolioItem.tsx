@@ -7,7 +7,7 @@ interface Props {
   onClick: any
 }
 
-let PortfolioItem: React.FC<Props> = ({ image, alt, text, onClick }) => {
+const PortfolioItem: React.FC<Props> = ({ image, alt, text, onClick }) => {
   return (
     <div className="card col-sm-4" onClick={onClick}>
       <img

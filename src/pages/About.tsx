@@ -5,7 +5,7 @@ import Me from '../components/Me/Me'
 import Footer from '../components/Footer/Footer'
 import Navbar from '../components/Navbar/Navbar'
 
-let About: React.FC = () => {
+const About: React.FC = () => {
   return (
     <div className="About">
       <Navbar />

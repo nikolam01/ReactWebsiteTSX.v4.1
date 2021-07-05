@@ -5,7 +5,7 @@ import myImage2 from '../../Assets/Images/About/fonis.png'
 import myImage3 from '../../Assets/Images/About/pulls.jpg'
 import myImage4 from '../../Assets/Images/About/programming.jpg'
 
-let Me: React.FC = () => {
+const Me: React.FC = () => {
   return (
     <div className="Me">
       {' '}
@@ -131,8 +131,8 @@ let Me: React.FC = () => {
             every aspect of life.
           </li>
           <li>
-            Don't let emotions control your behavior, always listen to your mind
-            and be patient when deciding.
+            Don't constemotions control your behavior, always listen to your
+            mind and be patient when deciding.
           </li>
           The book enlightened me completely and gave me a base for the process
           of mental change. Three years after reading that book I became

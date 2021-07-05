@@ -9,7 +9,7 @@ import Portfolio from './pages/Portfolio'
 import Services from './pages/Services'
 import NotFound from './pages/NotFound'
 
-let App = () => {
+const App = () => {
   return (
     <Router>
       <Switch>

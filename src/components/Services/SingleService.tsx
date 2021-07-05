@@ -7,7 +7,7 @@ interface ServiceProps {
   text: string
 }
 
-let SingleService: React.FC<ServiceProps> = ({ icon, title, text }) => {
+const SingleService: React.FC<ServiceProps> = ({ icon, title, text }) => {
   return (
     <div className="row" id="SingleService">
       <div className="col-sm-6 col-lg-4" style={{ cursor: 'pointer' }}>
