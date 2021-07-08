@@ -1,3 +1,4 @@
+@import './Variables.scss';
 @mixin start-setings {
   margin: 0;
   padding: 0;
@@ -16,5 +17,27 @@
   margin: {
     left: auto;
     right: auto;
+  }
+}
+@mixin font {
+  h1 {
+    font-family: $main-font;
+    font-size: $h1-fs;
+    font-weight: $h1-fw;
+  }
+  h2 {
+    font-family: $main-font;
+    font-size: $h2-fs;
+    font-weight: $h2-fw;
+  }
+  h3 {
+    font-family: $main-font;
+    font-size: $h3-fs;
+    font-weight: $h3-fw;
+  }
+  p {
+    font-family: $main-font;
+    font-size: $text-fs;
+    font-weight: $text-fw;
   }
 }

@@ -9,18 +9,10 @@ interface ServiceProps {
 
 const SingleService: React.FC<ServiceProps> = ({ icon, title, text }) => {
   return (
-    <div className="row" id="SingleService">
-      <div className="col-sm-6 col-lg-4" style={{ cursor: 'pointer' }}>
-        <div className="feature-box-1">
-          <div className="icon">
-            <i className={icon}></i>
-          </div>
-          <div className="feature-content">
-            <h5>{title}</h5>
-            <p>{text}</p>
-          </div>
-        </div>
-      </div>
+    <div id="SingleService" className="col-sm-4">
+      <i className={icon} id="icon"></i>
+      <h3>{title}</h3>
+      <p>{text}</p>
     </div>
   )
 }
