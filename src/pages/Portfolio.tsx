@@ -1,7 +1,7 @@
 import React from 'react'
 
 //components
-import PortfolioComponent from '../components/PortfolioComponent/PortfolioComponent'
+import PortfolioComponent from '../components/Portfolio/PortfolioComponent'
 import Navbar from '../components/Navbar/Navbar'
 import Footer from '../components/Footer/Footer'
 
