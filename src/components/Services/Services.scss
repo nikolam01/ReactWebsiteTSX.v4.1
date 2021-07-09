@@ -3,31 +3,104 @@
 * {
   @include start-setings;
 }
-#SingleService {
-  @include font;
-  border: 1px solid gray;
-  margin: 5px;
-  width: 100%;
-
-  #icon {
-    color: white;
-    background-color: #ffe107;
-    padding: 5%;
-    font-size: 40px;
-    border-radius: 20px;
-    margin: 1% auto;
-  }
-}
 .ServicesComponent {
-  padding: $page-padding;
   @include font;
+  padding: $page-padding;
+  background-color: $dark-bg;
 
   h1 {
+    color: $main-color;
+    font-weight: $h1-fw;
+    font-size: $h1-fw;
+    margin-bottom: 3%;
     text-align: center;
   }
-  .ServiceItems {
-    display: flex;
-    flex-wrap: wrap;
-    background-color: blue;
+}
+.feature-box-1 {
+  padding: 32px;
+  box-shadow: 0 0 30px rgba(20, 23, 29, 0.125);
+  margin: 15px 0;
+  position: relative;
+  z-index: 1;
+  border-radius: 10px;
+  overflow: hidden;
+  -moz-transition: ease all 0.35s;
+  -o-transition: ease all 0.35s;
+  -webkit-transition: ease all 0.35s;
+  transition: ease all 0.35s;
+  top: 0;
+  cursor: pointer;
+}
+.feature-box-1 * {
+  -moz-transition: ease all 0.35s;
+  -o-transition: ease all 0.35s;
+  -webkit-transition: ease all 0.35s;
+  transition: ease all 0.35s;
+}
+.feature-box-1 .icon {
+  width: 70px;
+  height: 70px;
+  line-height: 70px;
+  background: #ffd107;
+  color: $main-color;
+  margin-left: auto !important;
+  margin-right: auto !important;
+  text-align: center;
+  border-radius: 50%;
+  margin-bottom: 22px;
+  font-size: 27px;
+}
+.feature-box-1 .icon i {
+  line-height: 70px;
+}
+.feature-box-1 h5 {
+  text-align: center;
+  color: $main-color;
+  font-weight: $h2-fw;
+}
+.feature-box-1 p {
+  margin: 0;
+  color: $main-color;
+  text-align: center;
+}
+.feature-box-1:after {
+  content: '';
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: auto;
+  right: 0;
+  border-radius: 10px;
+  width: 0;
+  background: $dark-bg;
+  z-index: -1;
+  -moz-transition: ease all 0.35s;
+  -o-transition: ease all 0.35s;
+  -webkit-transition: ease all 0.35s;
+  transition: ease all 0.35s;
+}
+.feature-box-1:hover {
+  top: -20px;
+}
+.feature-box-1:hover h5 {
+  color: $main-color;
+}
+.feature-box-1:hover p {
+  color: $main-color;
+}
+.feature-box-1:hover:after {
+  width: 100%;
+  height: 100%;
+  border-radius: 10px;
+  left: 0;
+  right: auto;
+}
+
+//media queries
+
+@media (max-width: 768px) {
+  .ServicesComponent {
+    @include font;
+    padding: $page-padding-sm;
   }
 }

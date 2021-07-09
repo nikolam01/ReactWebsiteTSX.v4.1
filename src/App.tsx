@@ -13,7 +13,7 @@ const NotFound = lazy(() => import('./pages/NotFound'))
 const App = () => {
   return (
     <Router>
-      <Suspense fallback={<div>Loading...</div>}>
+      <Suspense fallback={<div></div>}>
         <Switch>
           <Route path="/404" component={NotFound} />
           <Route path="/services" component={Services} />

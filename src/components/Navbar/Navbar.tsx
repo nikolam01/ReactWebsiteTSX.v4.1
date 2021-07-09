@@ -1,5 +1,5 @@
 import React from 'react'
-import { Link } from 'react-router-dom'
+import { NavLink } from 'react-router-dom'
 import './Navbar.scss'
 import Logo from '../../Assets/Images/Logo/Logo.png'
 
@@ -13,9 +13,9 @@ const Navbar: React.FC = () => {
           marginRight: 'auto',
         }}
       >
-        <Link className="navbar-brand pl-3" to="/">
+        <NavLink className="navbar-brand pl-3" to="/">
           <img className="logo" src={Logo} alt="Logo"></img>
-        </Link>
+        </NavLink>
         <button
           className="navbar-toggler"
           type="button"
@@ -38,29 +38,29 @@ const Navbar: React.FC = () => {
             }}
           >
             <li className="nav-item active">
-              <Link className="nav-link pr-0" to="/">
+              <NavLink className="nav-link pr-0" to="/">
                 Home
-              </Link>
+              </NavLink>
             </li>
             <li className="nav-item active">
-              <Link className="nav-link pr-0" to="/contact">
+              <NavLink className="nav-link pr-0" to="/contact">
                 Contact
-              </Link>
+              </NavLink>
             </li>
             <li className="nav-item active">
-              <Link className="nav-link pr-0" to="/portfolio">
+              <NavLink className="nav-link pr-0" to="/portfolio">
                 Portfolio
-              </Link>
+              </NavLink>
             </li>
             <li className="nav-item active">
-              <Link className="nav-link pr-0" to="/about">
+              <NavLink className="nav-link pr-0" to="/about">
                 About
-              </Link>
+              </NavLink>
             </li>
             <li className="nav-item active">
-              <Link className="nav-link pr-0" to="/cv">
+              <NavLink className="nav-link pr-0" to="/cv">
                 CV
-              </Link>
+              </NavLink>
             </li>
           </ul>
         </div>
