@@ -1,5 +1,5 @@
 import React from 'react'
-import './PortfolioComponent.scss'
+import './Portfolio.scss'
 
 //images
 import responsiveDesign from '../../Assets/Images/Portofolio/responsive-design.jpg'
