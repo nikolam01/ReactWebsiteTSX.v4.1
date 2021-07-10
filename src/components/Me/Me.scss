@@ -9,7 +9,6 @@
   padding: 5% 15%;
   background-color: $dark-bg;
   color: $main-color;
-
   h1 {
     margin-bottom: 4%;
   }
@@ -57,6 +56,9 @@
     padding: 10% 5%;
     h1 {
       font-size: $h1-sm-fs !important;
+    }
+    #text {
+      text-align: left !important;
     }
 
     #myImage1 {

@@ -48,8 +48,8 @@ const Navbar: React.FC = () => {
               </NavLink>
             </li>
             <li className="nav-item active">
-              <NavLink className="nav-link pr-0" to="/portfolio">
-                Portfolio
+              <NavLink className="nav-link pr-0" to="/services">
+                Services
               </NavLink>
             </li>
             <li className="nav-item active">
