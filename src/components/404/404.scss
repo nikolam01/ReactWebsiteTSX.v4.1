@@ -14,3 +14,8 @@
   color: $main-color;
   height: 77vh;
 }
+@media (max-width: 768px) {
+  .BadRoute {
+    padding: 25% 5%;
+  }
+}

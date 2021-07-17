@@ -9,6 +9,7 @@
     font-family: $main-font;
     height: fit-content; //9vh
     background-color: #fff108 !important;
+
     .logo {
       width: 35%;
       height: 35%;
@@ -16,6 +17,12 @@
     #navItems {
       margin-right: 300px;
       font-weight: $heading-fw;
+      color: black !important;
+
+      li:hover {
+        transition: ease all 0.35s;
+        transform: scale3d(1.1, 1.1, 1.8);
+      }
     }
     button {
       outline: none;
@@ -39,6 +46,10 @@
     }
     #navItems {
       margin-right: 0px !important;
+      li:hover {
+        transition: none;
+        transform: none;
+      }
     }
     ul li {
       padding-right: 4% !important;

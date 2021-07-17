@@ -4,7 +4,7 @@
   @include start-setings;
 }
 .ServicesComponent {
-  @include font;
+  @include font-lg;
   padding: $page-padding;
   background-color: $dark-bg;
 
@@ -100,7 +100,6 @@
 
 @media (max-width: 768px) {
   .ServicesComponent {
-    @include font;
     padding: $page-padding-sm;
   }
 }
