@@ -11,7 +11,7 @@ const Contact: React.FC = () => {
 
   useEffect(() => {
     const loadData = async () => {
-      await new Promise((r) => setTimeout(r, 1000))
+      await new Promise((r) => setTimeout(r, 1400))
       setLoading((loading) => !loading)
     }
     loadData()
@@ -26,9 +26,6 @@ const Contact: React.FC = () => {
           justifyContent: 'center',
           alignItems: 'center',
           height: '100vh',
-          fontSize: '30px',
-          fontFamily: "'Quicksand', sans-serif",
-          transform: 'rotate(720deg)',
         }}
       >
         <Loader

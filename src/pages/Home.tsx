@@ -12,7 +12,7 @@ const Home: React.FC = () => {
 
   useEffect(() => {
     const loadData = async () => {
-      await new Promise((r) => setTimeout(r, 1200))
+      await new Promise((r) => setTimeout(r, 1400))
       setLoading((loading) => !loading)
     }
     loadData()
@@ -27,9 +27,6 @@ const Home: React.FC = () => {
           justifyContent: 'center',
           alignItems: 'center',
           height: '100vh',
-          fontSize: '30px',
-          fontFamily: "'Quicksand', sans-serif",
-          transform: 'rotate(720deg)',
         }}
       >
         <Loader

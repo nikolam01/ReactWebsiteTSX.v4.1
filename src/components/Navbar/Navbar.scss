@@ -47,8 +47,8 @@
     #navItems {
       margin-right: 0px !important;
       li:hover {
-        transition: none;
-        transform: none;
+        transition: none !important;
+        transform: scale3d(1, 1, 1) !important;
       }
     }
     ul li {
