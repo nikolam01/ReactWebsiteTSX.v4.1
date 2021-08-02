@@ -11,6 +11,7 @@ import Services from './pages/Services'
 import CV from './pages/CV'
 import NotFound from './pages/NotFound'
 import Projects from './pages/Projects'
+import Test from './pages/Test'
 
 const App = () => {
   const [loading, setLoading] = useState(true)
@@ -47,6 +48,7 @@ const App = () => {
       <Router>
         <Switch>
           <Route path="/404" component={NotFound} />
+          <Route path="/test" component={Test} />
           <Route path="/projects" component={Projects} />
           <Route path="/services" component={Services} />
           <Route path="/cv" component={CV} />
