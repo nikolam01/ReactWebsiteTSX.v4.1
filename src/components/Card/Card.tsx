@@ -1,5 +1,4 @@
 import React from 'react'
-import './Projects.scss'
 
 interface Props {
   image: string
@@ -8,7 +7,7 @@ interface Props {
   onClick: any
 }
 
-const ProjectItem: React.FC<Props> = ({ image, alt, text, onClick }) => {
+const Card: React.FC<Props> = ({ image, alt, text, onClick }) => {
   return (
     <div className="card col-sm-4" onClick={onClick}>
       <img
@@ -23,5 +22,4 @@ const ProjectItem: React.FC<Props> = ({ image, alt, text, onClick }) => {
     </div>
   )
 }
-
-export default ProjectItem
+export default Card

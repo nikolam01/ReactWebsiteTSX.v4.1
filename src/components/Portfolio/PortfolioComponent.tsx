@@ -10,14 +10,14 @@ import webDevelopment from '../../Assets/Images/Portofolio/web-development.jpg'
 import graphicDesign from '../../Assets/Images/Portofolio/graphic-design.jpg'
 
 //components
-import PortfolioItem from './PortfolioItem'
+import Card from '../Card/Card'
 
 const PortfolioComponent: React.FC = () => {
   return (
     <div className="PortfolioComponent">
       <h1>Portfolio</h1>
-      <div className="PortfolioItems">
-        <PortfolioItem
+      <div className="Cards">
+        <Card
           image={responsiveDesign}
           alt="Responsive Design"
           text="Limitless Dimensions"
@@ -26,7 +26,7 @@ const PortfolioComponent: React.FC = () => {
             window.location.href = 'https://www.linkedin.com/in/nikola-mirilo/'
           }}
         />
-        <PortfolioItem
+        <Card
           image={digitalMarketing}
           alt="Digital Marketing"
           text="Insanely higher Reach"
@@ -35,7 +35,7 @@ const PortfolioComponent: React.FC = () => {
             window.location.href = 'https://www.linkedin.com/in/nikola-mirilo/'
           }}
         />
-        <PortfolioItem
+        <Card
           image={graphicDesign}
           alt="Graphic Design"
           text="Designing your apps"
@@ -44,7 +44,7 @@ const PortfolioComponent: React.FC = () => {
             window.location.href = 'https://www.linkedin.com/in/nikola-mirilo/'
           }}
         />
-        <PortfolioItem
+        <Card
           image={photography}
           alt="Photography"
           text="Proffesional shots"
@@ -53,7 +53,7 @@ const PortfolioComponent: React.FC = () => {
             window.location.href = 'https://www.linkedin.com/in/nikola-mirilo/'
           }}
         />
-        <PortfolioItem
+        <Card
           image={webDevelopment}
           alt="Web Development"
           text="Making digital products"
@@ -62,7 +62,7 @@ const PortfolioComponent: React.FC = () => {
             window.location.href = 'https://www.linkedin.com/in/nikola-mirilo/'
           }}
         />
-        <PortfolioItem
+        <Card
           image={projectManagement}
           alt="Project Management"
           text="Coordinating your projects"
