@@ -1,0 +1,28 @@
+@import '../../Assets/SCSS/Variables.scss';
+@import '../../Assets/SCSS/Mixins.scss';
+
+* {
+  @include start-setings;
+}
+
+.Carousel {
+  background-color: $dark-bg;
+  height: 100vh;
+  @include vertical-horizontal-center;
+  padding: 5% 10%;
+
+  #carouselItems img {
+    margin-right: auto;
+    margin-left: auto;
+    border-radius: 10px;
+  }
+}
+@media (max-width: 768px) {
+  .Carousel {
+    padding: 5% 1%;
+
+    #carouselItems {
+      border-radius: 0px;
+    }
+  }
+}
