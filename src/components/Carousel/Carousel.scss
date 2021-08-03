@@ -10,6 +10,11 @@
   height: 100vh;
   @include vertical-horizontal-center;
   padding: 5% 10%;
+  @include font-lg;
+  h1 {
+    text-align: center;
+    margin-bottom: 3%;
+  }
 
   #carouselItems img {
     margin-right: auto;

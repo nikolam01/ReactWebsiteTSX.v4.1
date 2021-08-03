@@ -20,45 +20,42 @@
   }
 }
 @mixin font-lg {
+  color: white;
+  font-family: $main-font;
+
   h1 {
-    font-family: $main-font;
     font-size: $h1-sm-fs;
     font-weight: $h1-fw;
   }
   h2 {
-    font-family: $main-font;
     font-size: $h2-fs;
     font-weight: $h2-fw;
   }
   h3 {
-    font-family: $main-font;
     font-size: $h3-fs;
     font-weight: $h3-fw;
   }
   p {
-    font-family: $main-font;
     font-size: $text-fs;
     font-weight: $text-fw;
   }
 }
 @mixin font-sm {
+  color: white;
+  font-family: $main-font;
   h1 {
-    font-family: $main-font;
     font-size: $h1-sm-fs;
     font-weight: $h1-fw;
   }
   h2 {
-    font-family: $main-font;
     font-size: $h2-sm-fs;
     font-weight: $h2-fw;
   }
   h3 {
-    font-family: $main-font;
     font-size: $h3-sm-fs;
     font-weight: $h3-fw;
   }
   p {
-    font-family: $main-font;
     font-size: $text-sm-fs;
     font-weight: $text-fw;
   }
