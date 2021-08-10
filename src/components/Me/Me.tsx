@@ -138,8 +138,6 @@ const Me: React.FC = () => {
           of mental change. Three years after reading that book I became
           completely different person.
         </p>
-        {/*          <div className="col-sm-4" id="imgDiv5">
-<img src={myImage5} alt="" id="myImage5"></img> </div> */}
 
         <p className="col-sm-9" id="text">
           <h2 id="subtitleMe">Hobbies</h2>I have a wide range of interests,

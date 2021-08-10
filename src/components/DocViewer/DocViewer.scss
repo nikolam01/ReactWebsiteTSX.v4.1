@@ -1,9 +1,0 @@
-@import '../../Assets/SCSS/Variables.scss';
-@import '../../Assets/SCSS/Mixins.scss';
-* {
-  @include start-setings;
-}
-.DocViewer {
-  padding: $page-padding;
-  height: 100% !important;
-}

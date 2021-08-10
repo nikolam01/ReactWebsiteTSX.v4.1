@@ -7,6 +7,7 @@ const Carousel: React.FC = () => {
   return (
     <div className="Carousel">
       <h1>Projects</h1>
+
       <div
         id="carouselExampleControls"
         className="carousel slide"

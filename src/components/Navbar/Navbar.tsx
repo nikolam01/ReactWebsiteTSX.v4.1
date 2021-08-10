@@ -57,11 +57,6 @@ const Navbar: React.FC = () => {
                 About
               </NavLink>
             </li>
-            <li className="nav-item active">
-              <NavLink className="nav-link pr-0" to="/cv">
-                CV
-              </NavLink>
-            </li>
           </ul>
         </div>
       </nav>

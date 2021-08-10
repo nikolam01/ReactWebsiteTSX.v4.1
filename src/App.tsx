@@ -8,7 +8,6 @@ import Contact from './pages/Contact'
 import About from './pages/About'
 import Portfolio from './pages/Portfolio'
 import Services from './pages/Services'
-import CV from './pages/CV'
 import NotFound from './pages/NotFound'
 import Projects from './pages/Projects'
 import Test from './pages/Test'
@@ -51,7 +50,6 @@ const App = () => {
           <Route path="/test" component={Test} />
           <Route path="/projects" component={Projects} />
           <Route path="/services" component={Services} />
-          <Route path="/cv" component={CV} />
           <Route path="/portfolio" component={Portfolio} />
           <Route path="/about" component={About} />
           <Route path="/contact" component={Contact} />
