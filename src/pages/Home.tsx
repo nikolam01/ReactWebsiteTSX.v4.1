@@ -34,7 +34,7 @@ const Home: React.FC = () => {
           color="#ffe107"
           height={80}
           width={80}
-          timeout={3000} //3 secs
+          timeout={5000} //3 secs
         />
       </div>
     )
